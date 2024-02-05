@@ -91,3 +91,8 @@
   flex-direction: row;
   gap: 1rem;
 }
+@media (min-width: 320px) {
+  .menu__second {
+    padding-left: 50%;
+  }
+}
