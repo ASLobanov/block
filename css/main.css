@@ -1,0 +1,47 @@
+.main-menu,
+.main-menu__list,
+.main-menu__contact,
+.main-menu__lang,
+.main-menu__item,
+.main-menu__lang-list,
+.main-menu__contact,
+.main-menu__contact-button {
+  display: flex;
+  flex-direction: column;
+}
+.main-menu {
+  max-width: 13.875rem;
+  padding-top: 2rem;
+}
+.main-menu__item {
+  flex-direction: column;
+  margin: 0;
+  padding: 1rem 0 0 1rem;
+  list-style-type: none;
+  font-size: 1rem;
+  line-height: 1rem;
+  text-wrap: nowrap;
+  gap: 1.5rem;
+}
+.main-menu__lang {
+  padding-top: 1rem;
+}
+.main-menu__lang-list {
+  flex-direction: row;
+  list-style-type: none;
+  gap: 0.5rem;
+  padding: 0 0 0 1rem;
+}
+.main-menu__contact {
+  padding-top: 10rem;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+.call {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.main-menu__contact-button {
+  flex-direction: row;
+  gap: 1rem;
+}

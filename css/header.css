@@ -1,0 +1,20 @@
+.header__menu,
+.menu__first,
+.menu__second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__menu {
+  padding-top: 1rem;
+}
+
+.menu__first {
+  padding-left: 1rem;
+  gap: 1rem;
+}
+
+.menu__second {
+  padding-right: 1rem;
+}
