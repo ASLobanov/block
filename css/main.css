@@ -21,6 +21,7 @@
   font-size: 1rem;
   line-height: 1rem;
   text-wrap: nowrap;
+  white-space: nowrap;
   gap: 1.5rem;
 }
 /* стиль для ссылок меню */
