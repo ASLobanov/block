@@ -23,6 +23,31 @@
   text-wrap: nowrap;
   gap: 1.5rem;
 }
+.main-menu--style {
+  font-weight: 500;
+  color: black;
+}
+.main-menu--style:hover {
+  opacity: 0.5;
+}
+.main-menu--style:focus {
+  color: #7e7e82;
+}
+.main-menu--style:focus::before {
+  border-left: 2px;
+  border-style: solid;
+  border-color: #41f6d7;
+  display: flex;
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 4px;
+  border-style: solid;
+  border-color: #41f6d7;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  left: 0;
+}
 .main-menu__lang {
   padding-top: 1rem;
 }
