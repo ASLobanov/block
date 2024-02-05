@@ -56,6 +56,9 @@
   font-weight: 500;
   color: black;
 }
+.main-menu--style-lang:hover {
+  opacity: 0.5;
+}
 .main-menu--style-email {
   font-size: 1rem;
   font-weight: 500;
