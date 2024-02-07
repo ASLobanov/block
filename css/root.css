@@ -55,6 +55,7 @@ body {
   margin-right: auto;
   flex-direction: column;
   font-family: "TT Lakes";
+  box-shadow: 16px 0 52px 0 #0e185033;
 }
 
 a {

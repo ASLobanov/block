@@ -13,7 +13,8 @@
   background-color: white;
 }
 button:hover {
-  opacity: 0.5;
+  opacity: 0.4;
+  transition-duration: 2s;
 }
 
 .button--burger {

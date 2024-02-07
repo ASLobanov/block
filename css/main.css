@@ -33,6 +33,7 @@
 }
 .main-menu--style:hover {
   opacity: 0.5;
+  transition-duration: 2s;
 }
 .main-menu--style:focus {
   color: #7e7e82;
