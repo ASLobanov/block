@@ -11,6 +11,7 @@
   width: 40px;
   height: 40px;
   background-color: white;
+  transition-duration: 1s;
 }
 button:hover {
   opacity: 0.4;
