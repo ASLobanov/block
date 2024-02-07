@@ -51,7 +51,8 @@ body {
 .wrapper {
   display: flex;
   max-width: 320px;
-  min-height: 1120px;
+  min-height: 100%;
+  overflow: auto;
   margin-right: auto;
   flex-direction: column;
   font-family: "TT Lakes";
