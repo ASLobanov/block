@@ -55,7 +55,7 @@
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   ::i-block-chrome,
-  .site-title::after {
+  .main-menu--style:focus::before {
     border-left: 2px;
     border-style: solid;
     border-color: #41f6d7;
