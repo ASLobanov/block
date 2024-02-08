@@ -29,6 +29,7 @@
   font-weight: 500;
   color: black;
   display: flex;
+
   align-items: center;
 }
 .main-menu--style:hover {
@@ -39,12 +40,9 @@
   color: #7e7e82;
 }
 .main-menu--style:focus::before {
-  border-left: 2px;
-  border-style: solid;
-  border-color: #41f6d7;
+  content: "";
   display: flex;
   position: absolute;
-  content: "";
   height: 32px;
   width: 4px;
   border-style: solid;
@@ -56,24 +54,7 @@
   -moz-appearance: none;
   appearance: none;
 }
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  ::i-block-chrome,
-  .main-menu--style:focus::before {
-    border-left: 2px;
-    border-style: solid;
-    border-color: #41f6d7;
-    display: flex;
-    position: absolute;
-    content: "";
-    height: 32px;
-    width: 4px;
-    border-style: solid;
-    border-color: #41f6d7;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    left: 0;
-  }
-}
+
 /* стиль для выбора языка */
 .main-menu--style-lang {
   font-weight: 500;
