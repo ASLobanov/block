@@ -48,6 +48,7 @@
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   transform: translate(-1rem);
+  -webkit-transform: translate(-1rem);
 }
 
 /* стиль для выбора языка */
